@@ -1,0 +1,122 @@
+@import url('http://fonts.cdnfonts.com/css/alien-encounters');
+
+body{
+  background-image: url('https://img.freepik.com/free-vector/retro-80s-landscape-scene-game-style_1017-32947.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #29017C;
+}
+header{
+  position: fixed;
+  top: 0px;
+  background-color: #166196;
+  width: 100%;
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Alien Encounters';
+  color: white;
+}
+
+.link-section{
+  color: white;
+  font-size: 25px;
+  font-family: 'Alien Encounters';
+}
+.link-section:hover{
+  font-size: 40px;
+  font-family: 'Alien Encounters';
+}
+
+#welcome-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Alien Encounters';
+  color: white;
+}
+.project-link{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+    font-family: 'Alien Encounters';
+}
+.project-link:hover{
+  font-size: 30px;
+}
+
+h2 {color: white; text-align: center;}
+
+p{color: white;}
+
+@media (max-width:875px) {
+  p{font-size: 10px}
+  .project-link{font-size:15px}
+  h2{font-size: 15px}
+}
+
+#projects{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 40px 40px;
+  grid-template-areas:
+  "one two three"
+  "four four four"
+}
+
+#one{
+  grid-area: one;
+  background-color: #191919;
+  border-width: 30px;
+  border-style: solid;
+  border-color: #680099;
+  box-shadow: -5px 10px 4px rgba(255, 255, 255, 0.25);
+  padding: 20px 20px 20px 20px;
+}
+
+#two{
+    grid-area: two;
+    background-color: #191919;
+    border-width: 30px;
+    border-style: solid;
+    border-color: #a3007d;
+    box-shadow: -5px 10px 4px rgba(255, 255, 255, 0.25);
+    padding: 20px 20px 20px 20px;
+}
+
+#three{
+    grid-area: three;
+    background-color: #191919;
+    border-width: 30px;
+    border-style: solid;
+    border-color: #680099;
+    box-shadow: -5px 10px 4px rgba(255, 255, 255, 0.25);
+    padding: 20px 20px 20px 20px;
+}
+
+#four{
+    grid-area: four;
+    background-color: #191919;
+    border-width: 30px;
+    border-style: solid;
+    border-color: #135787;
+    box-shadow: -5px 10px 4px rgba(255, 255, 255, 0.25);
+    padding: 20px 20px 20px 20px;
+}
+
+footer{
+  text-align: center;
+  font-style:'Alien Encounters';
+}
